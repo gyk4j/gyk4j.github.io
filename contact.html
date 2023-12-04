@@ -1,0 +1,21 @@
+<html>
+  <body>
+    <h1>Data</h1>
+    <form id="encrypt">
+      <input type="text" name="l" placeholder="location" value="Singapore" required /><br/>
+      <input type="email" name="m" placeholder="email" value="nobody@localhost.net" required /><br/>
+      <input type="tel" name="p" placeholder="phone" pattern="[98][0-9]{7}" value="98989898" required /><br/>
+      <input type="submit" value="Encrypt" />
+    </form>
+
+    <div>
+      
+      <div>iv: <code><span id="i"></span></code></div>
+      <div>key: <code><span id="k"></span></code></div>
+      <div>cipertext: <code><span id="c"></span></code></div>
+      <div>plaintext: <code><span id="p"></span></code></div>
+    </div>
+
+    <script src="assets/js/contact.min.js"></script>
+  </body>
+</html>
